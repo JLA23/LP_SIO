@@ -1,0 +1,3 @@
+_homepage:
+    path:     /
+    defaults: { _controller: Bundle:Default:index }
