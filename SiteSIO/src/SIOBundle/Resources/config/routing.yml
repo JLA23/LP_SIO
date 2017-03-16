@@ -1,0 +1,3 @@
+sio_homepage:
+    path:     /
+    defaults: { _controller: SIOBundle:Default:index }
