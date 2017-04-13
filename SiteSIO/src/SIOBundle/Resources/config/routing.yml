@@ -1,3 +1,11 @@
 sio_homepage:
     path:     /
     defaults: { _controller: SIOBundle:Default:index }
+
+sio_contact:
+    path:    /contact
+    defaults: {_controller: SIOBundle:Default:contact }
+
+sio_about:
+    path:    /a-propos
+    defaults: {_controller: SIOBundle:Default:about }

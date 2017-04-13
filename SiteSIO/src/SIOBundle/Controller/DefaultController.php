@@ -8,8 +8,16 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('default/index.html.twig', array(
-            'base_dir' => realpath($this->container->getParameter('kernel.root_dir').'/..').DIRECTORY_SEPARATOR,
-        ));
+        return $this->render('SIOBundle:Default:index.html.twig');
+    }
+
+    public function contactAction()
+    {
+        return $this->render('SIOBundle:Default:contact.html.twig');
+    }
+
+    public function aboutAction()
+    {
+        return $this->render('SIOBundle:Default:about.html.twig');
     }
 }
